@@ -12,7 +12,7 @@ const Login = () => {
     const handleLogin = async (e) => {
         e.preventDefault();
         if(!email.endsWith("@nitc.ac.in")) {
-            alert("Only NITC Emails are allowed!");
+            alert("Only NITC Emails are allowed!!!!!");
             return;
         }
         try {
