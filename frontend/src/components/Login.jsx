@@ -43,7 +43,7 @@ const Login = () => {
 
     return (
         <div className="d-flex justify-content-center align-items-center vh-100 bg-light">
-            <div className="p-5 shadow rounded bg-slate-500">
+            <div className="p-5 shadow rounded bg-slate-950">
                 <h2 className="text-center mb-4">Login</h2>
                 <form onSubmit={handleLogin}>
                     <div className="mb-3">
