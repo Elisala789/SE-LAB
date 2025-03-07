@@ -35,7 +35,7 @@ const GeneralAdmin = () => {
 
       {/* Main Content */}
       <div className="w-3/4 p-10">
-        <h1 className="text-3xl font-bold mb-6">Lab Management</h1>
+        <h1 className="text-3xl font-bold mb-6">Lab MANAGEMENT</h1>
 
         {/* Add Lab Section */}
         <div className="mb-6">
