@@ -23,10 +23,10 @@ const GeneralAdmin = () => {
   return (
     <div className="flex h-screen">
       {/* Sidebar */}
-      <div className="w-1/6 bg-gray-800 text-white p-6">
+      <div className="w-1/6 bg-slate-400 text-white p-6">
         <h2 className="text-2xl font-bold mb-6">General Admin</h2>
         <ul>
-          <li className="py-2 hover:bg-gray-700 cursor-pointer">Dashboard</li>
+          <li className=" py-2 hover:bg-gray-700 cursor-pointer">Dashboard</li>
           <li className="py-2 hover:bg-gray-700 cursor-pointer">Add Lab</li>
           <li className="py-2 hover:bg-gray-700 cursor-pointer">Remove Lab</li>
           <li className="py-2 hover:bg-gray-700 cursor-pointer">Reports</li>
