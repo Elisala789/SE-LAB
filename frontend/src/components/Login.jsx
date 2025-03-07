@@ -12,7 +12,7 @@ const Login = () => {
     const handleLogin = async (e) => {
         e.preventDefault();
         if(!email.endsWith("@nitc.ac.in")) {
-            alert("Only NITC Emails are allowed!");
+            alert("Only NITC Emails are allowed!!!!!");
             return;
         }
         try {
@@ -40,10 +40,10 @@ const Login = () => {
             alert("Invalid Credentials");
         }
     }
-
+//yes
     return (
-        <div className="d-flex justify-content-center align-items-center vh-100 bg-light">
-            <div className="p-5 shadow rounded bg-slate-950">
+        <div className="d-flex justify-content-center align-items-center vh-100 bg-slate-400 ">
+            <div className="p-5 shadow rounded bg-slate-100">
                 <h2 className="text-center mb-4">Login</h2>
                 <form onSubmit={handleLogin}>
                     <div className="mb-3">
