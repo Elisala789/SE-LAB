@@ -12,7 +12,7 @@ public class User {
 
 	    private String email;
 	    private String password;
- private String role;  // STUDENT, FACULTY, RESEARCHER
+ 
 
 	    // Getters and Setters
 	    public String getEmail() {
